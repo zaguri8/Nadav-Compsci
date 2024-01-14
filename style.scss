@@ -65,6 +65,7 @@ body {
         padding: .5rem;
         color: white;
         font-size: 20px;
+        text-decoration: none;
     }
 
     .left {
@@ -273,4 +274,16 @@ body {
 
 .invert {
     filter: invert(1);
+}
+
+.about {
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    b  {
+        color: lightgray;
+
+    }
 }

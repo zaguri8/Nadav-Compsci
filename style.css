@@ -57,6 +57,7 @@ body {
   padding: 0.5rem;
   color: white;
   font-size: 20px;
+  text-decoration: none;
 }
 .main .left {
   display: flex;
@@ -259,4 +260,15 @@ body {
 
 .invert {
   filter: invert(1);
+}
+
+.about {
+  font-weight: bold;
+  color: rgb(75, 75, 75);
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+}
+.about b {
+  color: lightgray;
 }/*# sourceMappingURL=style.css.map */
