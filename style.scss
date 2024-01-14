@@ -295,3 +295,18 @@ body {
 
     }
 }
+
+.languages {
+    display: grid;
+    gap: 1rem;
+    color:gray;
+    grid-template-columns: 1fr 1fr;
+
+    div {
+        font-size: 14px;
+        border-bottom: 1px solid lightgray;
+        margin-inline: auto;
+        padding-bottom: 4px;
+        width: fit-content;
+    }
+}
