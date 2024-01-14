@@ -325,9 +325,9 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   position: absolute;
-  opacity: 0.1;
+  opacity: 0.05;
   left: 32px;
-  bottom: -350px;
+  bottom: -400px;
   filter: invert(10) brightness(1000%);
   animation: rotate-icon 5s linear forwards infinite alternate;
 }
