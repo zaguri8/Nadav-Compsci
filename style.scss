@@ -209,12 +209,20 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 32px;
 }
+.rank-img-2 {
+    background: white;
+    padding: 1rem;
+    max-width: min(750px, 100%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 32px;
+}
 
 .rank-gallery-section {
     margin-inline: auto;
     padding: 32px;
     overflow: hidden;
     display: grid;
+    place-items: center;
     gap: 2rem;
 
 }
