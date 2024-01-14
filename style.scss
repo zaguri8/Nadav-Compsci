@@ -116,6 +116,7 @@ body {
 
         @media only screen and (max-width:500px) {
             max-width: 350px;
+            font-size: 2.35rem;
         }
     }
 
@@ -153,7 +154,7 @@ body {
     z-index: 1000;
     background-image: url(assets/images/grid.png), linear-gradient(45deg, rgba(21, 255, 0, 0.5), rgb(255, 0, 0, 0.05));
     ;
-    opacity: 0.075;
+    opacity: 0.125;
     color: wheat;
 }
 
@@ -198,7 +199,11 @@ body {
     padding-inline: 1rem;
     cursor: pointer;
     @media only screen and (min-width:600px) {
-    margin-top:1rem;
+        margin-top:1rem;
+    }
+    @media only screen and (max-width:500px) {
+        font-size: 1rem;
+        margin-top:.25rem;
     }
 }
 
