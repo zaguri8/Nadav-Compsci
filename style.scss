@@ -86,9 +86,10 @@ body {
     overflow-x: hidden;
     height: 400px;
     width: 100%;
-    background: linear-gradient(45deg,
+    background: linear-gradient(90deg,
             rgb(2, 47, 2),
-            darkgreen);
+            rgb(2, 70, 2),
+            rgb(2, 47, 2));
 }
 
 
@@ -153,7 +154,7 @@ body {
     display: block;
     z-index: 1000;
     background-image: url(assets/images/grid.png), linear-gradient(45deg, rgba(21, 255, 0, 0.5), rgb(255, 0, 0, 0.05));
-    opacity: 0.125;
+    opacity: 0.1;
     color: wheat;
 }
 
@@ -162,7 +163,7 @@ body {
     height: 400px;
     display: block;
     z-index: 1000;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05));
+    background-image: linear-gradient(125deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.05));
     color: wheat;
 }
 
@@ -321,4 +322,33 @@ body {
         padding-bottom: 4px;
         width: fit-content;
     }
+}
+
+@keyframes rotate-icon {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(35deg);
+    }
+}
+
+.head-icon {
+    width: fit-content;
+    position: absolute;
+    opacity: 0.1;
+    left:32px;
+    bottom: -350px;
+    filter: invert(10) brightness(1000%);
+    animation: rotate-icon 5s linear forwards infinite alternate;
+}
+.head-icon-2 {
+    width: fit-content;
+    position: absolute;
+    opacity: 0.1;
+    width: 200px;
+    height: 200px;
+    right:150px;
+    bottom: -175px;
+    filter: invert(10) brightness(200%);
 }
