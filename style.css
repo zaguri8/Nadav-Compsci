@@ -325,7 +325,7 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   position: absolute;
-  opacity: 0.01 !important;
+  opacity: 0.1 !important;
   left: 32px;
   bottom: -400px;
   filter: invert(10) brightness(200%);
