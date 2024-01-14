@@ -115,7 +115,7 @@ body {
         color: white;
 
         @media only screen and (max-width:500px) {
-            max-width: 350px;
+            max-width: 250px;
             font-size: 2.35rem;
         }
     }
@@ -153,7 +153,6 @@ body {
     display: block;
     z-index: 1000;
     background-image: url(assets/images/grid.png), linear-gradient(45deg, rgba(21, 255, 0, 0.5), rgb(255, 0, 0, 0.05));
-    ;
     opacity: 0.125;
     color: wheat;
 }
@@ -163,7 +162,7 @@ body {
     height: 400px;
     display: block;
     z-index: 1000;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05));
     color: wheat;
 }
 
