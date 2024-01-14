@@ -336,10 +336,11 @@ body {
 .head-icon {
     width: fit-content;
     position: absolute;
+    opacity: 0.01 !important;
     left:32px;
     bottom: -400px;
+    filter: invert(10) brightness(200%);
     animation: rotate-icon 5s linear forwards infinite alternate;
-    opacity: 0.01 !important;
 }
 .head-icon-2 {
     width: fit-content;

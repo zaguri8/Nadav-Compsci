@@ -325,10 +325,10 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   position: absolute;
-  opacity: 0.05;
+  opacity: 0.01 !important;
   left: 32px;
   bottom: -400px;
-  filter: invert(10) brightness(1000%);
+  filter: invert(10) brightness(200%);
   animation: rotate-icon 5s linear forwards infinite alternate;
 }
 
