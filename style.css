@@ -232,6 +232,11 @@ body {
   animation: anim-slideshow 120s linear infinite forwards;
   grid-template-columns: repeat(12, 1fr);
 }
+@media only screen and (max-width: 450px) {
+  .tech-slideshow .slide {
+    gap: 10%;
+  }
+}
 .tech-slideshow div {
   width: -moz-max-content;
   width: max-content;

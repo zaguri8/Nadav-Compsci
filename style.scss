@@ -248,8 +248,13 @@ body {
         grid-auto-flow: column;
         align-content: center;
         gap: 30%;
+
         animation: anim-slideshow 120s linear infinite forwards;
         grid-template-columns: repeat(12, 1fr);
+
+        @media only screen and (max-width:450px) {
+            gap: 10%;
+        }
     }
     div {
         width: max-content;
