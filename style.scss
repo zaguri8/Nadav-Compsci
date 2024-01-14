@@ -253,7 +253,7 @@ body {
         grid-template-columns: repeat(12, 1fr);
 
         @media only screen and (max-width:450px) {
-            gap: 10%;
+            gap: 64px
         }
     }
     div {
