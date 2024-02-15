@@ -66,7 +66,25 @@ body {
         padding: .5rem;
         color: white;
         font-size: 20px;
+        column-gap: 1rem;
+        display: flex;
+        align-items: center;
         text-decoration: none;
+
+        .schedule {
+            column-gap: .25rem;
+            cursor: pointer;
+            flex-direction: column;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            color: rgb(248,161,26);
+            font-weight: bold;
+            span {
+                font-size: 12px;
+            }
+        }
+
     }
 
     .left {
@@ -192,19 +210,21 @@ body {
     font-weight: bold;
     border: 1px solid $orange;
     min-width: max-content;
-    margin-top:-1rem;
+    margin-top: -1rem;
     font-size: 1.35rem;
     padding: .5rem;
     text-decoration: none;
     padding-inline: 1rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     cursor: pointer;
+
     @media only screen and (min-width:600px) {
-        margin-top:1rem;
+        margin-top: 1rem;
     }
+
     @media only screen and (max-width:500px) {
         font-size: 1rem;
-        margin-top:.25rem;
+        margin-top: .25rem;
     }
 }
 
@@ -217,6 +237,7 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 32px;
 }
+
 .rank-img-2 {
     background: white;
     padding: 1rem;
@@ -236,13 +257,17 @@ body {
 }
 
 @keyframes anim-slideshow {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateX(max-content);
     }
+
     50% {
         transform: translateX(500%);
     }
 }
+
 .tech-slideshow {
     padding-bottom: 2rem;
     width: 100%;
@@ -264,28 +289,31 @@ body {
             gap: 20%;
         }
     }
+
     div {
         width: max-content;
     }
 }
 
-.tech { 
+.tech {
     width: 40px;
     object-fit: contain;
     height: 40px;
 }
+
 .tech-small {
     width: 35px;
     object-fit: contain;
     transform: translateX(-80%);
-    height: 35px;  
-} 
+    height: 35px;
+}
+
 .tech-smaller {
     width: 28px;
     object-fit: contain;
     transform: translateX(-80%);
-    height: 28px;  
-} 
+    height: 28px;
+}
 
 .tech-big {
     width: 45px;
@@ -304,7 +332,8 @@ body {
     text-align: center;
     padding: 1rem;
     font-size: 20px;
-    b  {
+
+    b {
         color: lightgray;
 
     }
@@ -313,8 +342,9 @@ body {
 .languages {
     display: grid;
     gap: 1rem;
-    color:gray;
+    color: gray;
     grid-template-columns: 1fr 1fr;
+
     div {
         font-size: 14px;
         border-bottom: 1px solid lightgray;
@@ -328,6 +358,7 @@ body {
     from {
         transform: rotateZ(0deg);
     }
+
     to {
         transform: rotateZ(35deg);
     }
@@ -337,18 +368,19 @@ body {
     width: fit-content;
     position: absolute;
     opacity: 0.1 !important;
-    left:32px;
+    left: 32px;
     bottom: -400px;
     filter: invert(10) brightness(200%);
     animation: rotate-icon 5s linear forwards infinite alternate;
 }
+
 .head-icon-2 {
     width: fit-content;
     position: absolute;
     opacity: 0.1;
     width: 200px;
     height: 200px;
-    right:150px;
+    right: 150px;
     bottom: -175px;
     filter: invert(10) brightness(200%);
 }
